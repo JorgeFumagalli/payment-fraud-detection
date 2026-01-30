@@ -357,7 +357,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Contact
 
 **Jorge Fumagalli**
-- Email: jfumagalli.work@gmail.com
+- Email: jorgefumagalli@yahoo.com.br
 - LinkedIn: [linkedin.com/in/jorgefumagalli](https://linkedin.com/in/jorgefumagalli)
 - GitHub: [@jorgefumagalli](https://github.com/jorgefumagalli)
 
