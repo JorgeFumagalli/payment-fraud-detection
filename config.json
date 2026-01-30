@@ -1,0 +1,55 @@
+{
+  "data": {
+    "input_path": "data/raw/df.xlsx",
+    "output_path": "outputs/",
+    "test_size": 0.2,
+    "random_state": 42
+  },
+  "feature_engineering": {
+    "high_value_percentile": 95,
+    "velocity_window_hours": 24,
+    "cold_start_thresholds": {
+      "user_min_tx": 3,
+      "merchant_min_tx": 5,
+      "device_min_tx": 3
+    }
+  },
+  "models": {
+    "logistic_regression": {
+      "max_iter": 1000,
+      "class_weight": "balanced"
+    },
+    "random_forest": {
+      "n_estimators": 300,
+      "max_depth": 10,
+      "class_weight": "balanced",
+      "optimize": false
+    },
+    "xgboost": {
+      "n_estimators": 500,
+      "max_depth": 6,
+      "learning_rate": 0.05,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8
+    },
+    "mlp": {
+      "hidden_layers": [64, 32],
+      "activation": "relu",
+      "max_iter": 200,
+      "early_stopping": true
+    }
+  },
+  "evaluation": {
+    "threshold": 0.5,
+    "cold_start_threshold": 0.35,
+    "cost_ratios": [0.5, 1.0, 2.0, 5.0, 10.0]
+  },
+  "production": {
+    "model_selection_strategy": "hybrid",
+    "monitoring": {
+      "enable_shap": true,
+      "enable_drift_detection": true,
+      "retrain_frequency_days": 30
+    }
+  }
+}

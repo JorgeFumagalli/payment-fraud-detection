@@ -1,0 +1,80 @@
+📦 payment-fraud-detection/
+│
+├── 📋 Documentação Principal
+│   ├── README.md                    ⭐ Comece por aqui!
+│   ├── EXECUTION_GUIDE.md           🚀 Passo a passo completo
+│   ├── QUICKSTART.md                ⚡ Setup em 5 minutos
+│   ├── CONTRIBUTING.md              🤝 Como contribuir
+│   ├── CHANGELOG.md                 📝 Histórico de versões
+│   ├── GITHUB_GUIDE.md              📤 Publicar no GitHub
+│   ├── PROJECT_SUMMARY.md           📊 Resumo detalhado
+│   └── STRUCTURE.txt                📁 Este arquivo
+│
+├── ⚙️ Configuração
+│   ├── config.json                  🔧 Configurações
+│   ├── requirements.txt             📦 Dependências
+│   ├── requirements-dev.txt         🛠️ Dev dependencies
+│   ├── setup.py                     📦 Instalação
+│   ├── .gitignore                   🚫 Git ignore
+│   └── LICENSE                      ⚖️ MIT License
+│
+├── 💻 Código Fonte (src/)
+│   ├── __init__.py                  📦 Pacote Python
+│   ├── main.py                      🎯 Script principal
+│   ├── data_loader.py               📥 Carregamento
+│   ├── feature_engineering.py       🔨 25 features
+│   ├── models.py                    🤖 4 modelos ML
+│   ├── cold_start.py                ❄️ Cold start
+│   └── utils.py                     🛠️ Utilitários
+│
+├── 🔮 Scripts de Execução
+│   └── predict_example.py           🎯 Exemplo de predições
+│
+├── ✅ Testes (tests/)
+│   ├── __init__.py
+│   └── test_features.py             🧪 Testes unitários
+│
+├── 📚 Documentação (docs/)
+│   ├── README.md                    📖 Índice
+│   ├── deployment_guide.md          🚀 Deploy produção
+│   └── case_study.pdf               📄 Adicione o seu aqui
+│
+├── 📓 Análises (notebooks/)
+│   └── fraud_detection_original.py  📊 Script original
+│
+├── 📂 Dados (data/) - não versionado
+│   ├── raw/                         💾 Dados brutos
+│   └── processed/                   ⚙️ Dados processados
+│
+├── 📂 Saídas (outputs/) - não versionado
+│   ├── eda/                         📊 Análise exploratória
+│   ├── confusion_matrices/          🔢 Matrizes
+│   ├── curves/                      📈 ROC/PR curves
+│   ├── shap/                        🔍 Explicabilidade
+│   ├── tables/                      📋 Relatórios CSV
+│   └── models/                      🤖 Modelos .pkl
+│
+└── 🔧 GitHub (.github/)
+    └── workflows/
+        └── ci.yml                   ⚙️ CI/CD
+
+═══════════════════════════════════════════════════════════
+
+📊 Estatísticas do Projeto:
+- 13 arquivos de documentação (incluindo EXECUTION_GUIDE.md)
+- 7 módulos Python (src/)
+- 1 script de predição (predict_example.py)
+- 1 suite de testes
+- 1 pipeline CI/CD
+- ~100KB código total
+
+🎯 Arquivos Importantes (LEIA NESTA ORDEM):
+1. README.md                - Visão geral completa
+2. EXECUTION_GUIDE.md       - Passo a passo de execução ⭐ NOVO
+3. QUICKSTART.md            - Setup rápido
+4. GITHUB_GUIDE.md          - Como publicar
+5. src/main.py              - Executar pipeline de treinamento
+6. predict_example.py       - Fazer predições ⭐ NOVO
+7. docs/deployment_guide.md - Deploy produção
+
+✅ Status: Pronto para publicação!
